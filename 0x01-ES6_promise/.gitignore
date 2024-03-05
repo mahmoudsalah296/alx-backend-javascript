@@ -2,4 +2,4 @@
 .eslintrc.js
 node_modules
 babel.config.js
-utils.js
+*main.js
