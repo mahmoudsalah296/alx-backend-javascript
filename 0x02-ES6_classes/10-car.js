@@ -5,9 +5,11 @@ export default class Car {
     this._color = color;
   }
 
-  cloneCar() {
-    const Species = this.constructor[Symbol.species];
+  static get [Symbol.species]() {
+    return this;
+  }
 
-    return new Species();
+  cloneCar() {
+    return newthis.constructor[Symbol.species];
   }
 }
