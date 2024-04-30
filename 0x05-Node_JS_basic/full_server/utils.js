@@ -6,6 +6,7 @@ import fs from 'fs';
  * @returns {Promise<{
  *   String: {firstname: String, lastname: String, age: number}[]
  * }>}
+ * @author Mahmoud Salah
  */
 
 const readDatabase = (dataPath) =>
